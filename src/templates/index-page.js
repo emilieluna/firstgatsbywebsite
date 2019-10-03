@@ -26,7 +26,7 @@ export const IndexPageTemplate = ({
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
         
-        backgroundAttachment: `fixed`,
+      
       }}
     >
       <div
