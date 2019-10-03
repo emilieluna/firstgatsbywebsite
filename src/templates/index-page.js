@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
-import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 
 export const IndexPageTemplate = ({
@@ -11,9 +10,13 @@ export const IndexPageTemplate = ({
   title,
   heading,
   subheading,
-  mainpitch,
   description,
-  intro,
+  imageOne,
+  descriptionOne,
+  imageTwo,
+  descriptionTwo,
+  imageThree,
+  descriptionThree,
 }) => (
   <div>
     <div
@@ -22,7 +25,7 @@ export const IndexPageTemplate = ({
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
-        backgroundPosition: `top left`,
+        
         backgroundAttachment: `fixed`,
       }}
     >
@@ -40,9 +43,9 @@ export const IndexPageTemplate = ({
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
             boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
+              'white 0.5rem 0px 0px, white -0.5rem 0px 0px',
+            backgroundColor: 'white',
+            color: '#fb486e',
             lineHeight: '1',
             padding: '0.25em',
           }}
@@ -50,61 +53,132 @@ export const IndexPageTemplate = ({
           {title}
         </h1>
         <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen has-text-centered"
           style={{
             boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
+              'white 0.5rem 0px 0px, white -0.5rem 0px 0px',
+            backgroundColor: 'white',
+            color: '#fb486e',
             lineHeight: '1',
             padding: '0.25em',
           }}
         >
           {subheading}
         </h3>
-      </div>
+        
+     </div>
+    
+ 
     </div>
+  
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="content">
-                <div className="content">
-                  <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
-                  </div>
-                  <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
-                  </div>
-                </div>
                 <div className="columns">
                   <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
+                    <h3 className="has-text-weight-semibold is-size-2 pinkColor">
                       {heading}
                     </h3>
                     <p>{description}</p>
                   </div>
                 </div>
-                <Features gridItems={intro.blurbs} />
+                <div
+                className="full-width-image-container"
+                style={{
+                  backgroundImage: `url(${
+                    imageOne.childImageSharp
+                      ? imageOne.childImageSharp.fluid.src
+                      : imageOne
+                  })`,
+                }}
+              />
                 <div className="columns">
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products">
-                      See all products
+                  <div className="column is-12">
+                  <h3 className="has-text-weight-semibold is-size-2 pinkColor">
+                    Rock Climber
+                  </h3>
+                    <p>{descriptionOne}</p>
+                    <div className="column is-12 has-text-centered">
+                    <Link className="btn" to="/contact">
+                      Contact me
                     </Link>
+                    </div>
                   </div>
                 </div>
-                <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
+                <div
+                className="full-width-image-container"
+                style={{
+                  backgroundImage: `url(${
+                    imageTwo.childImageSharp
+                      ? imageTwo.childImageSharp.fluid.src
+                      : imageTwo
+                  })`,
+                }}
+              />
+                <div className="columns">
+                  <div className="column is-12">
+                  <h3 className="has-text-weight-semibold is-size-2 pinkColor">
+                    Coder
                   </h3>
+                    <p>{descriptionTwo}</p>
+                    <div className="column is-12 has-text-centered">
+                    <Link className="btn" to="/contact">
+                      Contact me
+                    </Link>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                className="full-width-image-container"
+                style={{
+                  backgroundImage: `url(${
+                    imageThree.childImageSharp
+                      ? imageThree.childImageSharp.fluid.src
+                      : imageThree
+                  })`,
+                }}
+              />
+                <div className="columns">
+                  <div className="column is-12">
+                  <h3 className="has-text-weight-semibold is-size-2 pinkColor">
+                    Model
+                  </h3>
+                    <p>{descriptionThree}</p>
+                    <div className="column is-12 has-text-centered">
+                    <Link className="btn" to="/contact">
+                      Contact me
+                    </Link>
+                    </div>
+                  </div>
+                </div>
+              
+
+
+                 
+                <div className="column is-12">
+                  <h3 className="has-text-weight-semibold is-size-2 pinkColor">
+                    Blog
+                  </h3>
+                  <p>Coming soon.</p>
+                   {/*
                   <BlogRoll />
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/blog">
                       Read more
                     </Link>
                   </div>
+                   */}
+                    <div className="column is-12 has-text-centered">
+                    <Link className="btn" to="/blog">
+                      Read more
+                    </Link>
+                  </div>
                 </div>
+                
               </div>
             </div>
           </div>
@@ -119,11 +193,13 @@ IndexPageTemplate.propTypes = {
   title: PropTypes.string,
   heading: PropTypes.string,
   subheading: PropTypes.string,
-  mainpitch: PropTypes.object,
   description: PropTypes.string,
-  intro: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
+  imageOne: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  descriptionOne: PropTypes.string,
+  imageTwo: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  descriptionTwo: PropTypes.string,
+  imageThree: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  descriptionThree: PropTypes.string,
 }
 
 const IndexPage = ({ data }) => {
@@ -136,9 +212,13 @@ const IndexPage = ({ data }) => {
         title={frontmatter.title}
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
-        mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
-        intro={frontmatter.intro}
+        imageOne={frontmatter.image_one}
+        descriptionOne={frontmatter.description_one}
+        imageTwo={frontmatter.image_two}
+        descriptionTwo={frontmatter.description_two}
+        imageThree={frontmatter.image_three}
+        descriptionThree={frontmatter.description_three}
       />
     </Layout>
   )
@@ -168,25 +248,31 @@ export const pageQuery = graphql`
         }
         heading
         subheading
-        mainpitch {
-          title
-          description
-        }
-        description
-        intro {
-          blurbs {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
+        description 
+        image_one {
+          childImageSharp {
+            fluid(maxWidth: 2048, quality: 100) {
+              ...GatsbyImageSharpFluid
             }
-            text
           }
-          heading
-          description
         }
+        description_one
+        image_two {
+          childImageSharp {
+            fluid(maxWidth: 2048, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        description_two
+        image_three {
+          childImageSharp {
+            fluid(maxWidth: 2048, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        description_three
       }
     }
   }

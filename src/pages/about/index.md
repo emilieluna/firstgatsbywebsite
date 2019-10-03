@@ -1,19 +1,18 @@
 ---
 templateKey: 'about-page'
 path: /about
-title: About our values
+title: About Emilie
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+### Rock Climber
+My passion for climbing began in 2001 when I was eight years old. As a youth competition climber, I spent my childhood traveling to competitions and climbing outside. I was the North American Youth Continental Champion in 2002 and a USA Youth National Team Member multiple years in a row. By the age of 12, I had already climbed multiple V9s (7C) outside, a grade very few women were climbing at the time. I am currently training to climb my first V10 outside. Contact me for sponsorship and private coaching.
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+### Web Developer
+I am a web developer specializing in Javascript and React. I am passionate about creating beautiful, functional applications.
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+### Model
+I am a sports and lifestyle model. Height 5'7 | Eyes blue | Hair blonde | ShoeSize 6.5 | Dress size 0 | Contact me for rates.
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+### Contact Me
+Contact me for rates and sponsorship inquiries.
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+
