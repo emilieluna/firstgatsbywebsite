@@ -2,7 +2,7 @@
 templateKey: index-page
 title: The Coding Climber
 image: /img/firstslide.JPG
-heading: Hello, my name is Emilie.
+heading: Hello, my name is Emilie Childress.
 subheading: Rock Climber | Coder | Model
 description: >-
   I am a rock climber and web developer living in sunny Phoenix, Arizona.
