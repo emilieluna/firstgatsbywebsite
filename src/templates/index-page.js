@@ -241,7 +241,7 @@ export const pageQuery = graphql`
         title
         image {
           childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
+            fluid(maxWidth: 2048, quality: 70) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -251,7 +251,7 @@ export const pageQuery = graphql`
         description 
         image_one {
           childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
+            fluid(maxWidth: 2048, quality: 70) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -259,7 +259,7 @@ export const pageQuery = graphql`
         description_one
         image_two {
           childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
+            fluid(maxWidth: 2048, quality: 70) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -267,7 +267,7 @@ export const pageQuery = graphql`
         description_two
         image_three {
           childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
+            fluid(maxWidth: 2048, quality: 70) {
               ...GatsbyImageSharpFluid
             }
           }
