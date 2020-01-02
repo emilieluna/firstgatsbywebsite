@@ -3,22 +3,18 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
-import BlogRoll from '../components/BlogRoll'
+
+
+
+
 
 export const IndexPageTemplate = ({
   image,
   title,
-  heading,
   subheading,
-  description,
-  imageOne,
-  descriptionOne,
-  imageTwo,
-  descriptionTwo,
-  imageThree,
-  descriptionThree,
 }) => (
   <div>
+
     <div
       className="full-width-image margin-top-0"
       style={{
@@ -78,15 +74,7 @@ export const IndexPageTemplate = ({
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
-  heading: PropTypes.string,
   subheading: PropTypes.string,
-  description: PropTypes.string,
-  imageOne: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  descriptionOne: PropTypes.string,
-  imageTwo: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  descriptionTwo: PropTypes.string,
-  imageThree: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  descriptionThree: PropTypes.string,
 }
 
 const IndexPage = ({ data }) => {
@@ -97,15 +85,7 @@ const IndexPage = ({ data }) => {
       <IndexPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
-        heading={frontmatter.heading}
         subheading={frontmatter.subheading}
-        description={frontmatter.description}
-        imageOne={frontmatter.image_one}
-        descriptionOne={frontmatter.description_one}
-        imageTwo={frontmatter.image_two}
-        descriptionTwo={frontmatter.description_two}
-        imageThree={frontmatter.image_three}
-        descriptionThree={frontmatter.description_three}
       />
     </Layout>
   )
@@ -133,33 +113,7 @@ export const pageQuery = graphql`
             }
           }
         }
-        heading
         subheading
-        description 
-        image_one {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 70) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        description_one
-        image_two {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 70) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        description_two
-        image_three {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 70) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        description_three
       }
     }
   }
