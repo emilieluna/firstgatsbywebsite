@@ -41,7 +41,7 @@ export const IndexPageTemplate = ({
             boxShadow:
               'white 0.5rem 0px 0px, white -0.5rem 0px 0px',
             backgroundColor: 'white',
-            color: '#fb486e',
+            color: '#FF00C7',
             lineHeight: '1',
             padding: '0.25em',
           }}
@@ -54,7 +54,7 @@ export const IndexPageTemplate = ({
             boxShadow:
               'white 0.5rem 0px 0px, white -0.5rem 0px 0px',
             backgroundColor: 'white',
-            color: '#fb486e',
+            color: '#FF00C7',
             lineHeight: '1',
             padding: '0.25em',
           }}
