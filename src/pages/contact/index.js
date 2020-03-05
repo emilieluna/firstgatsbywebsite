@@ -41,7 +41,7 @@ export default class Index extends React.Component {
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <div className="section">
-              <h1 className="pinkColor title is-size-1 has-text-weight-bold is-bold-light">CONTACT</h1>
+              <h1 className="pinkColor title is-size-2 has-text-weight-bold is-bold-light">CONTACT</h1>
               <form
                 name="contact"
                 method="post"

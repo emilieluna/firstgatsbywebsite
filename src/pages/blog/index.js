@@ -13,7 +13,7 @@ export default class BlogIndexPage extends React.Component {
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <div className="section">
-              <h2 className="title is-size-1 has-text-weight-bold is-bold-light pinkColor">
+              <h2 className="title is-size-2 has-text-weight-bold is-bold-light pinkColor">
                 BLOG
               </h2>
               <BlogRoll />
