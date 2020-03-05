@@ -13,10 +13,10 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light pinkColor">
+              <h2 className="title is-size-1 has-text-weight-bold is-bold-light pinkColor">
                 {title}
               </h2>
-              <PageContent className="content" content={content} />
+              <PageContent className="content is-size-8" content={content} />
               <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/contact">
                       Contact me
