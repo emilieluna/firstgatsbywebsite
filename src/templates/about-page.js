@@ -4,6 +4,7 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
+
 export const AboutPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content
 
@@ -19,8 +20,9 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
               <PageContent className="content is-size-8" content={content} />
               <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/contact">
-                      Contact me
+                      Contact Emilie
                     </Link>
+                   
                   </div>
             </div>
           </div>
