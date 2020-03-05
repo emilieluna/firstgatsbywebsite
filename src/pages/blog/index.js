@@ -21,15 +21,15 @@ export default class BlogIndexPage extends React.Component {
             style={{
               boxShadow: '0.5rem 0 0 white -0.5rem 0 0 white',
               backgroundColor: 'white',
-              color: '#FF00C7',
+              color: '#FF00C7', 
               padding: '1rem',
             }}
           >
             Blog 
           </h1>
         </div>
-        <h1 className="has-text-centered">coming soon.</h1>
-        {/*
+       
+        {
         <section className="section">
           <div className="container">
             <div className="content">
@@ -37,7 +37,7 @@ export default class BlogIndexPage extends React.Component {
             </div>
           </div>
         </section>
-          */}
+          }
       </Layout>
     )
   }

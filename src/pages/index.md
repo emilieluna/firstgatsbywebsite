@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: The Coding Climber
+title: EMILIE CHILDRESS
 image: /img/firstslide.JPG
 heading: The Coding Climber
-subheading: Rock Climber and Web Developer
+subheading: developer + pro rock climber
 description: >-
   I am a rock climber and web developer living in the Bay Area, California.
 image_one: /img/climbSlide.JPG
