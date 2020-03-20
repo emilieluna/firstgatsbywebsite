@@ -4,7 +4,7 @@ title: The Moments in Between
 date: 2020-03-05T15:04:10.000Z
 featuredpost: true
 featuredimage: /img/moments.JPG
-description:
+description: The Moments in Between
 tags:
   - personal
   - reflection
