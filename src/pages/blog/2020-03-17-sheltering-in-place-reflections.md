@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Sheltering in Place Reflections
 date: 2020-03-17T15:04:10.000Z
 featuredpost: true
-featuredimage: /img/moments.JPG
+featuredimage: /img/reflection.JPG
 description: Sheltering in Place Reflections
 tags:
   - personal
@@ -19,3 +19,4 @@ Over the last few years I made a promise to myself that no matter what, I would 
 
 I urge everyone who is stuck inside right now to use this time to learn more about YOU. Delve deep inside and have conversations with yourself. This is an amazing opportunity for self discovery and to plant seeds for your future flowers. Sending love and light to all beings.
 
+![reflection](/img/reflection.JPG)
