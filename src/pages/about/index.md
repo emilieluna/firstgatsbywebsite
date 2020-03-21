@@ -10,11 +10,11 @@ Emilie's current climbing goals are to get outside at every opportunity and to r
 
 Proudest sends: Dirty Martini on the Rocks V9/7C, Legacy of the Kid V9/7C, This is Your Brain on Drugs V9/7C
 
-#writer + digital creative
+##writer + digital creative
 
-Since graduating from Arizona State University with a BA in English Literature, Emilie has worked in the fashion industry as a stylist, creative writer, copywriter, and digital marketing expert. Emilie creates powerful storytelling marketing campaigns by combining authentic content with strong brand strategy.
+Emilie has been working in the fashion industry since 2014 as a creative writer, copywriter, stylist, and digital marketing specialist. Emilie loves making storytelling marketing campaigns come to life through authentic content, strong brand strategy, inspiring art direction, and insightful writing.
 
-Emilie is also excited about using logic to solve complex problems and create meaningful applications. Emilie has experience with HTML, CSS, JavaScript and React. She uses Figma to design wireframes and prototypes. Emilie created this website using Gatsby, Netlify and React. 
+Technical Skills: HTML + CSS + JavaScript + Figma for design wireframes and prototypes. Emilie created this website using React and Gatsby. 
 
 
 
