@@ -17,6 +17,11 @@ Since graduating from Arizona State University with a BA in English Literature, 
 Emilie is also excited about using logic to solve complex problems and create meaningful applications. Emilie has experience with HTML, CSS, JavaScript and React. She uses Figma to design wireframes and prototypes. Emilie created this website using Gatsby, Netlify and React. 
 
 
+![about](/img/about.JPG)
+
+
+
+
 
 
 
