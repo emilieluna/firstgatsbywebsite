@@ -12,7 +12,7 @@ Proudest sends: Dirty Martini on the Rocks V9/7C, Legacy of the Kid V9/7C, This 
 
 #writer + digital creative
 
-Since graduating from Arizona State University with a BA in English Literature, Emilie has worked in the fashion industry as a stylist, creative writer, copywriter, and digital marketing expert. Emilie loves to create powerful storytelling marketing campaigns by combining authentic content with a strong brand strategy.
+Since graduating from Arizona State University with a BA in English Literature, Emilie has worked in the fashion industry as a stylist, creative writer, copywriter, and digital marketing expert. Emilie creates powerful storytelling marketing campaigns by combining authentic content with strong brand strategy.
 
 Emilie is also excited about using logic to solve complex problems and create meaningful applications. Emilie has experience with HTML, CSS, JavaScript and React. She uses Figma to design wireframes and prototypes. Emilie created this website using Gatsby, Netlify and React. 
 
