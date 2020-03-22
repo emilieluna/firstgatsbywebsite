@@ -12,7 +12,7 @@ Proudest sends: Dirty Martini on the Rocks V9/7C, Legacy of the Kid V9/7C, This 
 
 ##writer + digital creative
 
-Emilie has a BA in English Literature from Arizona State University. She has been working in the fashion industry since 2014 as a creative writer, copywriter, stylist, and digital marketing specialist. Emilie loves making storytelling marketing campaigns come to life through authentic content, strong brand strategy, inspiring art direction, and insightful writing.
+Emilie has a BA in English Literature from Arizona State University. She has been working in the fashion industry since 2014 as a creative writer, copywriter, stylist, and digital marketing specialist. Emilie loves bringing marketing campaigns to life through authentic storytelling, strong brand strategy, inspiring art direction, and insightful writing.
 
 Technical Skills: HTML + CSS + JavaScript + Figma for design wireframes and prototypes. Emilie created this website using React and Gatsby. 
 
