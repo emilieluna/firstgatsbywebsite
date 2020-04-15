@@ -1,8 +1,9 @@
 ---
 templateKey: 'about-page'
 path: /portfolio
-title: PORTFOLIO (Emilie's Designs and Photography)
+title: PORTFOLIO
 ---
+##Emilie's designs + photography
 
 ![beesweet](/img/beesweet.jpg)
 
