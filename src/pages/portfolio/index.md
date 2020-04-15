@@ -1,7 +1,7 @@
 ---
 templateKey: 'about-page'
 path: /portfolio
-title: Examples of Emilie's Design Work
+title: PORTFOLIO (Emilie's Designs and Photography)
 ---
 
 ![beesweet](/img/beesweet.jpg)
