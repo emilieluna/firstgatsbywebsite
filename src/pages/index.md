@@ -3,11 +3,11 @@ templateKey: about-page
 path: /
 title: EMILIE CHILDRESS
 heading: Emilie Childress
-subheading: climber + writer + digital creative
+subheading: climber + graphic designer + writer
 
 ---
 
-##climber + writer + digital creative
+##climber + graphic designer + writer
 
 ![emilie1](/img/emilie1.jpg)
 

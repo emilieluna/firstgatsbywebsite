@@ -4,11 +4,11 @@ path: /about
 title: ABOUT
 ---
 
-##writer + designer
+##graphic designer + writer
 
-Emilie has a BA in English Literature from Arizona State University. She has been working in the fashion industry since 2014 as a creative writer, copywriter, stylist, graphic designer and digital marketing specialist. Emilie loves bringing marketing campaigns to life through authentic storytelling, strong brand strategy, inspiring art direction, and insightful writing.
+Emilie has a Bachelor of Arts in English Literature from Arizona State University. She has been working in the fashion industry since 2014 as a creative writer, stylist, and graphic designer. Emilie loves bringing marketing campaigns to life through authentic storytelling and inspiring art direction. Emilie is currently working on completing a certificate in Graphic Arts and Digital Illustration.
 
-Technical Skills: HTML, CSS, JavaScript, Adobe Illustrator, InDesign and Photoshop. Emilie created this website using React and Gatsby. 
+Technical Skills: HTML, CSS, JavaScript, Adobe Illustrator, Adobe InDesign, Adobe Photoshop and Procreate. Emilie created this website using React and Gatsby.
 
 ##climber
 Born in France and raised in Northern California, Emilie's passion for climbing began when she was 8 years old. As a youth competition climber, she spent her childhood traveling to competitions and climbing outside. After taking time off to pursue university, she truly realized that climbing was her entire world and started working to build a life around climbing. 

@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'The Coding Climber',
+    title: 'Emilie Childress',
     description:
-      'The Coding Climber',
+      'Climber + Graphic Designer + Writer',
   },
   plugins: [
     'gatsby-plugin-sharp',
